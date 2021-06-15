@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+    </header>
+    <div class="container">
+        <table class="board">
+            <tr>
+                <td id="box1" onclick="clicked(this)"></td>
+                <td id="box2" onclick="clicked(this)"></td>
+                <td id="box3" onclick="clicked(this)"></td>
+            </tr>
+            <tr>
+                <td id="box4" onclick="clicked(this)"></td>
+                <td id="box5" onclick="clicked(this)"></td>
+                <td id="box6" onclick="clicked(this)"></td>
+            </tr>
+            <tr>
+                <td id="box7" onclick="clicked(this)"></td>
+                <td id="box8" onclick="clicked(this)"></td>
+                <td id="box9" onclick="clicked(this)"></td>
+            </tr>
+        </table>
+    </div>
+    <footer>
+        <div>Choice for First Player:</div>
+        <ul>
+            <li>
+                <button class="choice" id="x" onclick="btnclick(this)">X</button>
+                <button class="choice" id="o" onclick="btnclick(this)">O</button>
+            </li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    height: 90vh;
+    width: 100vw;
+}
+header{
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 10px #2cff00;
+    font-size: 4vh;
+}
+footer {
+    margin: 3vh;
+    text-align: center;
+    font-size: 1.5vmax;
+}
+li {
+    display: inline;
+    margin: 10px 5px;
+    padding: 20px;
+    margin: auto;
+}
+.choice{
+    display: block;
+    width: 10vw;
+    height: 7vh;
+    margin: auto;
+    text-align: center;
+    font-size: 2vh;
+    background: darkred;
+    color: beige;
+    text-shadow: 2px 1px 5px gold;
+}
+.board{
+    margin: auto;
+}
+    
+table, td{
+    height: 16vh;
+    width: 24vw;
+    border: 10px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 3rem;
+    color: greenyellow;
+}
+@media screen and (max-width:800px) {
+    
+    table, td{
+        height: 10vh;
+        width: 40vw;
+        border: 0.2em solid white;
+        border-collapse: collapse;
+        text-align: center;
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width:800px) and (max-width:1100px) {
+    
+    table, td{
+        height: 15vh;
+        width: 50vw;
+        border: 0.2em solid white;
+        border-collapse: collapse;
+        text-align: center;
+        font-size: 3rem;
+    }
+}
+    .choice:hover{
+        color: wheat;
+        background: darkblue;
+        text-shadow: 2px 1px 5px orange;
+    }
+table{
+    border: none;
+}
+#box1,#box2,#box3{
+    border-top: none;
+}
+#box1,#box4,#box7{
+    border-left: none;
+}
+#box3,#box6,#box9{
+    border-right: none;
+}
+#box7,#box8,#box9{
+    border-bottom: none;
+}
+
+
+
+
